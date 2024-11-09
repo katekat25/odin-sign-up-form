@@ -22,14 +22,19 @@ body {
 }
 
 .content {
-    padding-right: 20vh;
-    padding-left: 20vh;
-    padding-top: 20vh;
+    padding-right: 15vh;
+    padding-left: 15vh;
+    padding-top: 15vh;
 }
 
 .description,
 legend {
     font-weight: bold;
+}
+
+form {
+   margin-right: -15vh;
+   margin-left: -15vh;
 }
 
 .logo {
