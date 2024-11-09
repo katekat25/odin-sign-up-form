@@ -27,6 +27,11 @@ body {
     padding-top: 20vh;
 }
 
+.description,
+legend {
+    font-weight: bold;
+}
+
 .logo {
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -51,7 +56,7 @@ body {
 }
 
 img {
-    height: 100px;
-    width: 100px;
+    height: 1.5em;
+    width: auto;
 }
 
