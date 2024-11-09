@@ -44,7 +44,7 @@ legend {
     justify-content: center;
     color: white;
     font-family: "norsebold", sans-serif;
-    font-size: 5em;
+    font-size: 5rem;
 }
 
 .credit {
@@ -56,7 +56,7 @@ legend {
 }
 
 img {
-    height: 1.5em;
+    height: 6rem;
     width: auto;
 }
 
