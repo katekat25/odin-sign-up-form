@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'norsebold';
     src: url('fonts/norse-bold-webfont.woff2') format('woff2'),
-         url('fonts/norse-bold-webfont.woff') format('woff');
+        url('fonts/norse-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 .content {
-    padding-right: 15vh;
+    padding-right: 30vh;
     padding-left: 5vh;
     padding-top: 15vh;
 }
@@ -33,17 +33,19 @@ legend {
 }
 
 form {
-   margin-right: -15vh;
-   margin-left: -5vh;
+    margin-right: -30vh;
+    margin-left: -5vh;
 }
 
 fieldset {
     position: relative;
     padding-top: 50px;
     padding-left: 5vh;
+    padding-right: 15vh;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 25px;
+
 }
 
 legend {
@@ -56,8 +58,9 @@ label {
     display: flex;
 }
 
-legend ~ div {
+legend~div {
     margin-right: 50px;
+    margin-bottom: 15px;
 }
 
 button {
@@ -104,4 +107,3 @@ img {
 a {
     color: #fbb948;
 }
-
