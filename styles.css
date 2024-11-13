@@ -24,7 +24,7 @@ body {
 .content {
     padding-right: 30vh;
     padding-left: 5vh;
-    padding-top: 10vh;
+    padding-top: 8vh;
     background-color: #f5f6f6;
 }
 
@@ -53,7 +53,8 @@ fieldset {
 }
 
 fieldset,
-button {
+button,
+input:focus {
     box-shadow: 5px 5px 5px 0px #E5E5E5;
 }
 
@@ -73,12 +74,17 @@ legend~div {
 }
 
 input {
-    border-color: #E5E7EB;
     border-radius: 4px;
+    border: 1px solid #E5E7EB;
 }
 
 input:invalid {
     border-color: red;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgb(61, 169, 236);
 }
 
 button {
@@ -124,4 +130,8 @@ img {
 
 a {
     color: #fbb948;
+}
+
+.credit > a {
+    color: white;
 }
