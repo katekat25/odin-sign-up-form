@@ -37,6 +37,33 @@ form {
    margin-left: -15vh;
 }
 
+fieldset {
+    position: relative;
+    padding-top: 50px;
+    padding-left: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+}
+
+legend {
+    position: absolute;
+    top: 15px;
+    left: 15vh;
+}
+
+label {
+    display: flex;
+}
+
+legend ~ div {
+    margin-right: 50px;
+}
+
+button {
+    margin-left: 15vh;
+}
+
 .logo {
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
