@@ -23,7 +23,7 @@ body {
 
 .content {
     padding-right: 15vh;
-    padding-left: 15vh;
+    padding-left: 5vh;
     padding-top: 15vh;
 }
 
@@ -34,13 +34,13 @@ legend {
 
 form {
    margin-right: -15vh;
-   margin-left: -15vh;
+   margin-left: -5vh;
 }
 
 fieldset {
     position: relative;
     padding-top: 50px;
-    padding-left: 15vh;
+    padding-left: 5vh;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 25px;
@@ -49,7 +49,7 @@ fieldset {
 legend {
     position: absolute;
     top: 15px;
-    left: 15vh;
+    left: 5vh;
 }
 
 label {
@@ -61,7 +61,15 @@ legend ~ div {
 }
 
 button {
-    margin-left: 15vh;
+    margin: 5vh;
+    border: none;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 5vh;
+    padding-left: 5vh;
+    border-radius: 5px;
+    background-color: #fbb948;
+
 }
 
 .logo {
@@ -85,10 +93,15 @@ button {
     text-align: center;
     bottom: 0;
     color: white;
+    font-size: 1.5ch;
 }
 
 img {
     height: 6rem;
     width: auto;
+}
+
+a {
+    color: #fbb948;
 }
 
