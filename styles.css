@@ -24,15 +24,18 @@ body {
 .content {
     padding-right: 30vh;
     padding-left: 5vh;
-    padding-top: 15vh;
+    padding-top: 10vh;
+    background-color: #f5f6f6;
 }
 
 .description,
 legend {
     font-weight: bold;
+    padding-bottom: 5vh;
 }
 
 form {
+    border-top: #E5E7EB;
     margin-right: -30vh;
     margin-left: -5vh;
 }
@@ -45,7 +48,13 @@ fieldset {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 25px;
+    border: none;
+    background-color: white;
+}
 
+fieldset,
+button {
+    box-shadow: 5px 5px 5px 0px #E5E5E5;
 }
 
 legend {
@@ -61,6 +70,15 @@ label {
 legend~div {
     margin-right: 50px;
     margin-bottom: 15px;
+}
+
+input {
+    border-color: #E5E7EB;
+    border-radius: 4px;
+}
+
+input:invalid {
+    border-color: red;
 }
 
 button {
